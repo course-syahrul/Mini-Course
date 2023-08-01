@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesona Nusantara</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-items"><a href=""><img class="img-logo" src="assets/ic-logo2.png" alt="Logo"></a></div>
+        <div class="nav-items">
+            <table class="nav-menu">
+                <tr>
+                    <td><label onclick="scrollToSectionHome()">Beranda</label></td>
+                    <td><label onclick="scrollToSectionPackage()">Pelayanan Kami</label></td>
+                    <td><label onclick="scrollToSectionCallus()">Hubungi Kami</label></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="nav-bottom">
+        <div class="line"></div>
+        <div class="nav-bottom-content">
+            <label class="nav-bottom-items" onclick="scrollToSectionHome()"><img src="assets/ic-home.png" alt="icon">Beranda</label>
+            <label class="nav-bottom-items" onclick="scrollToSectionPackage()"><img src="assets/ic-service.png" alt="icon">Pelayanan</label>
+            <label class="nav-bottom-items" onclick="scrollToSectionCallus()"><img src="assets/ic-booking.png" alt="icon">Hubungi</label>
+        </div>
+    </div>
+
+    <div class="line"></div>
+    <div class="konten">
+        <div class="section-home" id="section-home">
+            <h2 id="home">Menjelajahi Keindahan Nusantara dengan Travel Agent Terpercaya</h2>
+            <p>Mewujudkan Liburan Impian Anda Menjadi Kenyataan</p>
+        </div>
+
+        <div class="main">
+            <div class="main-kiri">
+                <div class="content-slide">
+                    <div class="banner fade" id="banner">
+                        <img src="assets/img-slide1.jpg" alt="Banner">
+                        <div class="banner-deskripsi">
+                            <p>"Pengalaman liburan dengan travel agency ini sungguh mengagumkan! Mereka membantu saya merencanakan liburan keluarga yang tak terlupakan. Destinasi yang dipilih sangat menarik dan pelayanannya luar biasa!"</p>
+                            <div class="banner-detail">
+                                <img src="assets/icon-person.png" alt="Icon">
+                                <ul>
+                                    <li><b>Asep</b></li>
+                                    <li><i>Pelajar, 17</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="banner fade" id="banner">
+                        <img src="assets/img-slide2.jpg" alt="Banner">
+                        <div class="banner-deskripsi">
+                            <p>"Berpetualang dengan travel agency ini adalah keputusan tepat! Mereka memberikan diskon istimewa untuk mahasiswa sehingga saya bisa menjelajahi dunia tanpa menguras kantong."</p>
+                            <div class="banner-detail">
+                                <img src="assets/icon-person.png" alt="Icon">
+                                <ul>
+                                    <li><b>Udin</b></li>
+                                    <li><i>Mahasiswa, 19</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="banner fade" id="banner">
+                        <img src="assets/img-slide3.jpg" alt="Banner">
+                        <div class="banner-deskripsi">
+                            <p>"Travel agency ini memiliki staf yang ramah dan responsif. Mereka selalu siap membantu dan memberikan saran terbaik untuk liburan impian saya."</p>
+                            <div class="banner-detail">
+                                <img src="assets/icon-person.png" alt="Icon">
+                                <ul>
+                                    <li><b>Asepudin</b></li>
+                                    <li><i>Wiraswasta, 45</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a class="prev" onClick="nextbanner(-1)">&#10094;</a>
+                    <a class="next" onClick="nextbanner(1)">&#10095;</a> 
+                </div>
+    
+                <div class="short-line"></div>
+    
+                <b>Kami hadir dengan layanan eksklusif dan berbagai keuntungan untuk memastikan liburan Anda menjadi pengalaman yang luar biasa.
+                </b>
+    
+                <div class="benefit-statement">
+                    <div class="bg-round" ><b>1</b></div>
+                    <b>Paket Liburan Personalized</b>
+                </div>
+                <p>Memahami bahwa setiap perjalanan adalah unik dan khas untuk setiap individu, kami menawarkan paket liburan yang dipersonalisasi sesuai dengan preferensi dan anggaran Anda. Liburan impian Anda akan dirancang secara khusus untuk memenuhi keinginan dan harapan Anda.</p>
+    
+                <div class="benefit-statement">
+                    <div class="bg-round" ><b>2</b></div>
+                    <b>Layanan Berkualitas Tinggi</b>
+                </div>
+                <p>Kenyamanan dan kepuasan pelanggan adalah prioritas utama kami. Tim kami yang berpengalaman dan berpengetahuan luas akan mendampingi Anda sejak awal perencanaan hingga akhir perjalanan. Kami akan memberikan bantuan penuh selama perjalanan Anda, sehingga Anda dapat menikmati setiap momen tanpa beban.</p>
+    
+                <div class="benefit-statement">
+                    <div class="bg-round" ><b>3</b></div>
+                    <b>Jaringan Global</b>
+                </div>
+                <p>Kami memiliki jaringan luas di seluruh Indonesia, membawa Anda ke destinasi menakjubkan di berbagai pulau. Dengan akses yang luas ini, kami dapat menawarkan pengalaman perjalanan yang beragam dan memikat, dari petualangan eksotis hingga liburan santai di pantai yang indah.</p>
+            </div>
+    
+            
+            <div id="section-callus"></div>
+            <div class="main-kanan">
+                <h3 id="callus">Hubungi Kami</h3>
+                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                <form action="#" id="form-callus">
+                    <label for="name">Nama Lengkap</label>
+                    <label for="label-error" class="label-error" id="label-error">Nama Lengkap</label>
+                    <input type="text" name="input-name" id="input-name" placeholder="Nama Lengkap">
+                    <label for="email">Email</label>
+                    <label for="label-error" class="label-error" id="label-error">Email</label>
+                    <input type="email" name="input-email" id="input-email" placeholder="Email">
+                    <label for="destination">Tujuan</label>
+                    <label for="label-error" class="label-error" id="label-error">Tujuan</label>
+                    <select name="input-destination" id="input-destination">
+                        <option value="">Pilih :</option>
+                        <option value="Bali">Bali</option>
+                        <option value="Yogyakarta">Yogyakarta</option>
+                        <option value="Raja Ampat">Raja Ampat</option>
+                        <option value="Lombok">Lombok</option>
+                        <option value="Pulau Komodo">Pulau Komodo</option>
+                        <option value="Labuan Bajo">Labuan Bajo</option>
+                    <input type="button" name="input-send" id="input-send" value="KIRIM" onclick="validateForm()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-ourpackage" id="section-ourpackage">
+        <h2 id="ourpackage">Pelayanan Kami</h2>
+    </div>
+
+    <div class="konten">
+        <div class="package">
+            <div class="package-items">
+                <img src="assets/icon-idea.png" alt="icon">
+                <ul>
+                    <li><h3>Bali</h3></li>
+                    <li><p>Jelajahi Bali, Pulau Surga dengan Paket Liburan Eksklusif. Nikmati Keindahan Pantai Pasir Putih dan Keajaiban Kebudayaannya.</p></li>
+                </ul>
+            </div>
+            <div class="package-items">
+                <img src="assets/icon-idea.png" alt="icon">
+                <ul>
+                    <li><h3>Yogyakarta</h3></li>
+                    <li><p>Yogyakarta, Seribu Pesona dalam Satu Kota. Rasakan Keajaiban Candi, Tradisi, dan Kuliner Khas.</p></li>
+                </ul>
+            </div>
+            <div class="package-items">
+                <img src="assets/icon-idea.png" alt="icon">
+                <ul>
+                    <li><h3>Raja Ampat</h3></li>
+                    <li><p>Pesona Raja Ampat Menanti Anda. Diving di Bawah Laut, Menyatu dengan Alam Paling Menakjubkan.</p></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="short-line" style="margin: 0 auto;"></div>
+    
+        <div class="package">
+            <div class="package-items">
+                <img src="assets/icon-star.png" alt="icon">
+                <ul>
+                    <li><h3>Lombok</h3></li>
+                    <li><p>Lombok, Tempat yang Memikat Hati. Pantai Indah, Gunung Menantang, dan Budaya yang Memikat.</p></li>
+                </ul>
+            </div>
+            <div class="package-items">
+                <img src="assets/icon-star.png" alt="icon">
+                <ul>
+                    <li><h3>Pulau Komodo</h3></li>
+                    <li><p>Saksikan Keajaiban Komodo, Naga Purba yang Memesona. Wisata Alam yang Tidak Akan Terlupakan.</p></li>
+                </ul>
+            </div>
+            <div class="package-items">
+                <img src="assets/icon-star.png" alt="icon">
+                <ul>
+                    <li><h3>Labuan Bajo</h3></li>
+                    <li><p>Petualangan Tanpa Batas di Labuan Bajo. Mengarungi Lautan, Berjumpa dengan Komodo, Kenikmatan Sejati.</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="konten">
+        <div class="closing">
+            <h2>Satu Klik Menuju Liburan Impian Anda!</h2>
+            <p>
+                Jangan sia-siakan kesempatan untuk menjalani 
+                petualangan luar biasa. Ayo bergabung dengan kami 
+                sekarang, dan biarkan Destinasi Impian mengantarkan 
+                Anda menuju destinasi impian Anda secara praktis dan 
+                tanpa repot. Jadikan setiap momen liburan berarti dengan 
+                layanan eksklusif kami. Nikmati kepuasan tanpa batas dalam 
+                perjalanan hidup Anda!
+            </p>
+            <input type="button" value="HUBUNGI KAMI" id="btn-contact-us" name="btn-contact-us" onclick="scrollToSectionCallus()">
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="footer">
+        <a href="" style="margin: 0 auto;"><img class="img-logo" src="assets/ic-logo2.png" alt="Logo" ></a>
+        <div class="footer-content">
+            <div class="footer-items">
+                <h4>Kontak Kami</h4>
+                <p style="margin-top: 10px;">Jl. Jalanan Raya, Bandung, 14045</p>
+                <p>0812000000</p>
+            </div>
+            <div class="footer-items">
+                <h4>Media Sosial</h4>
+                <div style="margin-top: 10px;">
+                    <a href="#"><img class="ic-sosmed" src="assets/ic-sosmed1.png" alt="icon"></a>
+                    <a href="#"><img class="ic-sosmed" src="assets/ic-sosmed2.png" alt="icon"></a>
+                    <a href="#"><img class="ic-sosmed" src="assets/ic-sosmed3.png" alt="icon"></a>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <label for=""  style="margin: 0 auto;">©Copyright 2023. Moqups</label>
+    </div>
+
+    <div id="alert-success" class="alert">
+        <div class="alert-success">
+            <h3>Input berhasil</h3>
+            <div class="success-konten">
+                <div class="konten-kiri">
+                    <p>Nama</p>
+                    <p>Email</p>
+                    <p>Tujuan</p>
+                </div>
+                <div class="konten-kanan">
+                    <p id="data-name">Nama</p>
+                    <p id="data-email">Email</p>
+                    <p id="data-destination">Tujuan</p>
+                </div>
+            </div>
+            <p style="margin-top: 25px; text-align: center;">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+            <button onclick="closeAlertSuccess()">Tutup</button>
+        </div>
+    </div>
+
+    <script>
+        showbanner(1);
+    </script>
+    
+</body>
+</html>
